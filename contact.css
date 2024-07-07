@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+/* #home a{
+    color: rgb(0, 0, 0);
+} */
+
+.navbar-link:link,
+.navbar-link:visited {
+    text-decoration: none;
+    display: inline-block;
+    /* Ensure the color is inherited if needed */
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+
+    transition: color 0.4 linear;
+
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+    color: blue;
+    transition: all 0.4 linear;
+
+}
+
+#location-margin{
+    margin-top: 5rem;
+}
+
+
+
+
+
+.logo-name{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;;
+    text-align: center;
+    color: black;
+}
+
+/* ============================================ contact address ke liye ======================================================================= */
+
+.contact-anchor{
+    color: blue;
+    font-size: 2rem;
+    padding: 1.7rem;
+}
+
+.contact-address{
+    background-color: #928f8f;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+    height: 7rem;
+    max-width: 110rem;
+    margin: auto;
+}
+#location-margin{
+    margin-bottom: 5rem;
+}
+
+
+
+/* ============================================================================================================================= */
+/* ==============================media query for bottom address================================================================== */
+/* ================================================================================================================================== */
+
+@media (max-width: 700px){
+    .contact-address{
+        flex-direction: column;
+        column-gap: 4rem;
+        height: 20rem;
+        max-width: 110rem;
+        margin: auto;
+    }
+}
+
+

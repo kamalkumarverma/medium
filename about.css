@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.aboutwebpage{
+    color: white;
+    font-size: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#developer{
+    margin-top: 60px;
+}
+
+#developer_image{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+    margin-top: 70px;
+    border: solid 0.3rem #ced3ff;
+}
+
+#third{
+    margin-top: 100px;
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+}
+
+#dev_accounts{
+    margin-top: 30px;
+    padding: 50px;
+}
+a{
+    color:rgb(0, 0, 0);
+    /* font-weight: bolder; */
+    font-size: 40px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.dev_name{
+    font-size: 20px !important;
+    margin-left: 5px;
+}
+
+
+.logo-name{
+    color: white;
+    background-color: transparent;
+
+}
+
+#dev_accounts a{
+    color: white;
+}
+
+#dev_accounts a:hover{
+    color: blue;
+}
+#developer{
+    color: white;
+}
+.dev_name{
+    color: white;
+}
+.about-dev-para{
+    color: white;
+}
+
+.navbar-link{
+    color: white;
+    background-color: transparent;
+
+}
+
+
+@media (max-width: 1100px) {
+    #dev_accounts a{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 750px) {
+    #dev_accounts a{
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 570px) {
+    #dev_accounts{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .aboutwebpage{
+        font-size: 1.8rem;
+    }
+
+    #third{
+        margin-top: 5rem;
+    }
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+    color: white;
+    background-color: transparent;
+
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+    color: blue;
+    background-color: transparent;
+}
+
+.header{
+    background-color: transparent;
+}
+
+
+.navbar-lists-a-p{
+    gap: 0;
+    justify-content: space-around;
+}
+
+.mobile-nav-icon {
+    color: white;
+}
+
+#developer_image {
+    margin-bottom: 3rem;
+}
